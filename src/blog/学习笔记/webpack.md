@@ -1,6 +1,7 @@
 ---
-title: webpack5的vue配置
+title: webpack5配置
 icon: blog
+date: 2023-05-05
 tag:
   - Webpack
 category:

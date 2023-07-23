@@ -1,6 +1,7 @@
 ---
 title: JS基础
 icon: blog
+date: 2022-03-21
 tag:
   - javascript
 category:
