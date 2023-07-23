@@ -49,6 +49,7 @@ export const zhSidebar = sidebar({
       icon: "blog",
       prefix: "blog/",
       link: "blog/",
+      children: "structure",
     },
     {
       text: "站点收藏",
@@ -73,8 +74,8 @@ export const zhSidebar = sidebar({
   "/posts/Linux/": "structure",
   "/posts/cross-platform/Flutter/": "structure",
   "/posts/cross-platform/ReactNative/": "structure",
-  "/posts/Web/": "structure",
   "/site/": "structure",
   "/blog": "structure",
+  "/blog/学习笔记/": "structure",
   "/tutorial": "structure",
 });

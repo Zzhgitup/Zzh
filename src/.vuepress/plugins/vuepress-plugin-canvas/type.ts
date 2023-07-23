@@ -13,6 +13,8 @@ enum CanvasPluginType {
    * 彩虹飘带
    */
   Ribbon = "ribbon",
+
+  codestroll = "codestroll",
 }
 
 interface BackgroundOptions {

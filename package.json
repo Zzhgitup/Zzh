@@ -30,6 +30,7 @@
     "@moefy-canvas/theme-popper": "^0.5.2",
     "axios": "^1.4.0",
     "http-proxy-middleware": "^2.0.6",
+    "shiki": "^0.14.3",
     "vuepress-plugin-oh-my-live2d": "0.6.0"
   },
   "packageManager": "pnpm@8.6.0",
