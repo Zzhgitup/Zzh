@@ -18,8 +18,8 @@ import MyCoverLink from "@MyCoverLink";
 @tab 🌴General
 
 ```yml
-昵称: "上冬十二",
-简介: "到最后，竟庆幸于夕阳仍留在身上",
+昵称: "zihao ",
+简介: "代码噩梦",
 头像: "https://oragekk.me/logo.svg",
 连接: "https://oragekk.me/"
 ```
