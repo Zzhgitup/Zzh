@@ -17,7 +17,7 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
-  base: "/Zzh/",
+  base: "/",
   lang: "zh-CN",
   head: [["meta", { name: "referrer", content: "no-referrer-when-downgrade" }]],
   locales: {
