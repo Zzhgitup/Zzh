@@ -1,6 +1,7 @@
 ---
 title: JS语言基础（一）
 icon: blog
+date: 2021-11-12
 tag:
   - javascript
 category:
