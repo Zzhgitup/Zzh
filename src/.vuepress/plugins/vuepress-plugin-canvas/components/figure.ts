@@ -10,6 +10,14 @@ function figure() {
   // 将 div 元素添加到文档的 body 元素中
   document.body.appendChild(div);
 } */
+  function getRandomColor() {
+    const letters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
   const cvs = document.createElement("canvas");
   cvs.style.backgroundColor = "transparent";
   console.log("执行code");
@@ -24,7 +32,7 @@ function figure() {
   cvs.style.cssText =
     "position:fixed;top:0;left:0;z-index: 1;width:100%;height:100%;pointer-events:none;";
   // create canvas
-  const fontSize = 15 * devicePixelRatio;
+  const fontSize = 20 * devicePixelRatio;
   ctx.font = `${fontSize}px Cambria, Cochin, Georgia, Times, "Times New Roman", serif`;
   const columCount = Math.floor(cvs.width / fontSize);
   const charIndex = new Array(columCount).fill(0);
@@ -37,7 +45,7 @@ function figure() {
   function draw() {
     ctx.fillStyle = "rgba(228,228,236,0.1)";
     ctx.fillRect(0, 0, cvs.width, cvs.height);
-    ctx.fillStyle = "#6BE445";
+    ctx.fillStyle = getRandomColor();
     ctx.textBaseline = "top";
     for (let i = 0; i < columCount; i++) {
       const x = i * fontSize;
