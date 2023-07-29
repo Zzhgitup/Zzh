@@ -18,8 +18,8 @@ import MyCoverLink from "@MyCoverLink";
 @tab 🌴General
 
 ```yml
-昵称: "zihao ",
-简介: "代码噩梦",
+昵称: "二进制旅人 ",
+简介: "二进制旅人",
 头像: "https://oragekk.me/logo.svg",
 连接: "https://oragekk.me/"
 ```
@@ -28,7 +28,7 @@ import MyCoverLink from "@MyCoverLink";
 
 ```json
 {
-  "name": "上冬十二",
+  "name": "二进制旅人",
   "desc": "到最后，竟庆幸于夕阳仍留在身上",
   "ico": "https://oragekk.me/logo.svg",
   "link": "https://oragekk.me/"
@@ -38,7 +38,7 @@ import MyCoverLink from "@MyCoverLink";
 @tab yml
 
 ```yml
-- name: "上冬十二",
+- name: "二进制旅人",
 - desc: "到最后，竟庆幸于夕阳仍留在身上",
 - ico: "https://oragekk.me/logo.svg",
 - link: "https://oragekk.me/"

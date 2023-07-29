@@ -14,7 +14,7 @@ export default defineClientConfig({
   setup() {
     onMounted(() => {
       console.log(
-        `%c ✨子豪的博客 v2.1.0✨ %c ✨ZiHao✨ %c\n
+        `%c 二进制旅人 v2.1.0✨ %c ✨ZiHao✨ %c\n
                你，对，你，就是你\n
                   🍻- ( ゜- ゜)つロ 乾杯~🍻\n
                           ---- 最是春风留不住，徒留我孤直。\n

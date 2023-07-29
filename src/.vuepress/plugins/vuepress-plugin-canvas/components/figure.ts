@@ -32,7 +32,7 @@ function figure() {
   cvs.style.cssText =
     "position:fixed;top:0;left:0;z-index: 1;width:100%;height:100%;pointer-events:none;";
   // create canvas
-  const fontSize = 20 * devicePixelRatio;
+  const fontSize = 16 * devicePixelRatio;
   ctx.font = `${fontSize}px Cambria, Cochin, Georgia, Times, "Times New Roman", serif`;
   const columCount = Math.floor(cvs.width / fontSize);
   const charIndex = new Array(columCount).fill(0);
