@@ -139,7 +139,7 @@ vim /var/repo/hexo.git/hooks/post-receive
 
 ```
 #!/bin/bash
-git --work-tree=/var/hexo --git-dir=/var/repo/hexo.git checkout -f
+git --work-tree=/www/wwwroot/hexo --git-dir=/var/repo/hexo.git checkout -f
 ```
 
 6. 更改权限
