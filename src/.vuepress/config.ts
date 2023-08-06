@@ -2,10 +2,7 @@ import { getDirname, path } from "@vuepress/utils";
 import { defineUserConfig, viteBundler } from "vuepress";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { ohmylive2dPlugin } from "vuepress-plugin-oh-my-live2d";
-import {
-  canvasPlugin,
-  CanvasPluginType,
-} from "./plugins/vuepress-plugin-canvas";
+import { canvasPlugin, CanvasPluginType } from "./plugins/vuepress-plugin-canvas";
 import { live2DAssistPlugin } from "./plugins/vuepress-plugin-live2DAssist";
 import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
 import theme from "./theme.js";

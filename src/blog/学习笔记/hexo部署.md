@@ -169,6 +169,12 @@ deploy:
   branch: master
 ```
 
+### 问题解决
+
+在推送中可能会出现一下情况
+
+![](https://article.biliimg.com/bfs/article/df896ba1888b65c6d74477c90299c1f24451b648.png)
+
 配置完成后，可直接 hexo 三连到自己的服务器。简单快捷。
 
 之后就能通过服务器 IP 地址，访问博客了 默认是 80 端口

@@ -15,6 +15,8 @@
     "@vuepress/core": "2.0.0-beta.63",
     "@vuepress/plugin-docsearch": "2.0.0-beta.63",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.63",
+    "@vuepress/plugin-last-updated": "^1.9.9",
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
     "@vuepress/plugin-shiki": "2.0.0-beta.63",
     "@vuepress/shared": "2.0.0-beta.63",
     "@vuepress/utils": "2.0.0-beta.63",
