@@ -15,9 +15,9 @@ export const zhNavbar = navbar([
           { text: "Linux", icon: "linux", link: "Linux/" },
           { text: "React", icon: "react", link: "cross-platform/ReactNative/" },
           {
-            text: "Flutter",
+            text: "React Native",
             icon: "hk-flutter",
-            link: "cross-platform/Flutter/",
+            link: "cross-platform/ReactNative/",
           },
         ],
       },

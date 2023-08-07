@@ -31,4 +31,46 @@ export const api: LinkData[] = [
     ico: "https://api.paugram.com/static/img/icon.png",
     link: "https://api.paugram.com/",
   },
+  {
+    name: "Bftool",
+    desc: "免费在线工具",
+    ico: "https://bfotool.com/images/logo.png?v=2.0.1",
+    link: "https://bfotool.com/zh",
+  },
+  {
+    name: "RGB与16进制颜色转化",
+    desc: "颜色工具",
+    ico: "",
+    link: "https://www.sioe.cn/yingyong/yanse-rgb-16/",
+  },
+  {
+    name: "Sprite Cow",
+    desc: "精灵图定位工具，非常好用",
+    ico: "http://www.spritecow.com/assets/9/favicon.ico",
+    link: "http://www.spritecow.com/",
+  },
+  {
+    name: "Internet Speed",
+    desc: "测试是否连接外网",
+    ico: "https://fast.com/assets/new-logo-vert-37861c.svg",
+    link: "https://fast.com/#",
+  },
+  {
+    link: "https://transform.tools/",
+    name: "Transform",
+    desc: "一个内容转化工具，",
+    ico: "https://transform.tools/static/favicon.png",
+  },
+  {
+    link: "https://mojie.ac/#/dashboard",
+    name: "魔戒",
+    desc: "节点购买工具",
+    ico: "",
+  },
+  {
+    link: "https://www.btnull.org/",
+    name: "无名小站",
+    desc: "种子网站，影视资源非常全",
+    ico: "",
+  },
 ];
