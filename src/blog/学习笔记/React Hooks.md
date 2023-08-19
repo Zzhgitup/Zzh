@@ -514,3 +514,54 @@ export default App;
 useLayoutEffect（） 官方不建议使用，
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/26302696/1689758427564-67dc6d57-a56b-41ef-8e6b-f00dae97a651.png#averageHue=%23fdf7ee&clientId=u5e12156c-1aef-4&from=paste&height=253&id=u12f7b957&originHeight=253&originWidth=937&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18643&status=done&style=none&taskId=ubd2be9c0-1922-4a36-9146-d45b3166660&title=&width=937)
 会阻塞 DOM 的更新
+
+#### 高阶组件 HOC
+
+引入：有一个需求，需要在页面右下角加一个悬浮按钮，使用告诫组件该如果做
+高阶组件如下：
+
+```tsx
+import React from "react";
+import { View, Text, StyleSheet, Button } from "react-native";
+type IHocComponent =
+  | React.FunctionComponent<any>
+  | React.ComponentClass<any>
+  | React.ForwardRefExoticComponent<any>;
+const hoc = <T extends IHocComponent>(OriginView: T) => {
+  const HocView = (props: any) => {
+    return (
+      <>
+        <OriginView {...props} />
+        <View>
+          <Button title="悬浮按钮"></Button>
+        </View>
+      </>
+    );
+  };
+  return HocView;
+};
+```
+
+```tsx
+export default hoc;
+const styles = StyleSheet.create({});
+
+在需要加悬浮按钮的组件中只需套上一层高阶组件即可;
+import React from "react";
+import { SafeAreaView, View } from "react-native";
+import Animprice from "./src/components/Anim/Animprice";
+import BottonHoc from "./src/components/Hoc/withFloatBotton";
+const App = BottonHoc(() => {
+  return (
+    <SafeAreaView>
+      <View>
+        <Animprice />
+      </View>
+    </SafeAreaView>
+  );
+});
+export default App;
+```
+
+有时我们需要在软件刚一开始，去执行一些收集信息的操作，往往在 App.tsx 中的 useEffect 中执行，
+我们可以把这个执行的地方放到高阶组件中，实现代码的解耦，提高代码的复用性，当我们遇到在页面中需要执行一些函数时，但是这些函数是不是在主页执行都无所谓，我们可以把这些东西放到高阶组件中进行执行，像 RN 中的软件需要申请一些权限，就可以放在高阶组件中进行执行
