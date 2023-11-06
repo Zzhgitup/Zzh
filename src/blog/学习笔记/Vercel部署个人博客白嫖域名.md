@@ -12,6 +12,8 @@ category:
 
 （补充：vercel 在国内已被墙，一个悲伤的消息，网站只能科学上网查看，或者自己绑定域名）
 
+测试
+
 使用[vuepress](https://so.csdn.net/so/search?q=vuepress&spm=1001.2101.3001.7020)+github 托管
 
 我们可以使用 vercel 进行部署，vercel 和 github actions 很相似，都是通过将博客的所有必须文件（包括 package.json,docs 等）push 到 github 的某个仓库仓库中，然后在 vercel 中创建一个项目，导入此仓库，之后的一切就交给 vercel 去做了
