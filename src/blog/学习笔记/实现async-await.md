@@ -9,7 +9,7 @@ category:
 ---
 
 此次我们来实现一个 async await 内部实现
-实际上 async 就是生成器的语法糖，await 就是 then 的语法糖
+实际上 async 就是生成器的语法糖，await 就是 then 的语法糖,
 平常我们使用的过程中
 
 ### 示例
