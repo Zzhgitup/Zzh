@@ -37,7 +37,6 @@
     "shiki": "^0.14.3",
     "vuepress-plugin-oh-my-live2d": "0.6.0"
   },
-  "packageManager": "pnpm@8.6.0",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
